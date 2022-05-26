@@ -4,7 +4,7 @@ import Menu from '../Main/Menu'
 import React, { useState, useEffect } from 'react'
 import itemList from '../../itemList.json'
 
-function Main() {
+function Main() { --- arrow function
 
   useEffect(() => {
     itemList.forEach(item => item.addToCart = false)
@@ -20,7 +20,7 @@ function Main() {
 
     const newProductList = [...productList]
 
-    if (newProductList[index].addToCart === false) {
+    if (newProductList[index].addToCart === false) { --- gali parasyt toki -> if (!newProductList[index].addToCart)
 
       (newProductList[index].addToCart = true) && (newProductList[index].count = 1)
 
