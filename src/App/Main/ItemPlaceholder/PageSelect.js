@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function PageSelect() {
+function PageSelect() { --- tas pats komentaras kaip ir Filter.js
   return (
     <section id='PageSelect'>PageSelect</section>
   )
