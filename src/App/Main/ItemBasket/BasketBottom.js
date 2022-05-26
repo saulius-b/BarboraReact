@@ -1,6 +1,6 @@
 import React from 'react'
 
-function BasketBottom({ productList, totalPrice }) {
+function BasketBottom({ productList, totalPrice }) { --- gali komentara parasyti, ka cia dar nori padaryti, nes daug vietos palikai. Ir arrow function
 
   
 
