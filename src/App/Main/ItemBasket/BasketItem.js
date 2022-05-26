@@ -7,16 +7,16 @@ function BasketItem(props) {
 
   return (
     <div id='BasketItem'>
-      <img className='BasketImg' alt={props.itemName} src={props.image} />
+      <img className='BasketImg' alt={props.itemName} src={props.image} /> --- alt tago nepamirsk
       <div>
-        <div id='BasketItemName'>{props.itemName}</div>
+        <div id='BasketItemName'>{props.itemName}</div> --- ar tikrai cia reik divo?
         <div id='ButtonRow'>
           <div>
             <button onClick={ () => props.removeItem(props.index)}>-</button>
             <span>{props.count} vnt.</span>
             <button onClick={ () => props.addItem(props.index)}>+</button>
           </div>
-          <div id='BasketItemPrice'>
+          <div id='BasketItemPrice'> --- ar tikrai cia reik divo?
             € {itemsPrice}
           </div>
         </div>
