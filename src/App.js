@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import './CSSFiles/App.css'
+import './CSSFiles/Header.css'
+import './CSSFiles/BasketItem.css'
+import './CSSFiles/ItemBasket.css'
+import './CSSFiles/Menu.css'
+import './CSSFiles/Filter.css'
+import './CSSFiles/ItemPlaceholder.css'
+import './CSSFiles/PageSelect.css'
+import './CSSFiles/Products.css'
+import './CSSFiles/Product.css'
+import './CSSFiles/Main.css'
+import './CSSFiles/Menu.css'
+
+import Header from './App/Header';
+import Main from './App/Main/Main';
+import Footer from './App/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,13 @@
+#Products {
+  background-color: #f8f4f1; 
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-rows: minmax(40vh, auto);
+  grid-auto-columns: 1fr;  
+  padding: 10px;
+  gap: 10px;
+  
+  
+  
+  
+}

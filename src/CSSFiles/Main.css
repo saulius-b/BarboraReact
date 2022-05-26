@@ -1,0 +1,14 @@
+#Main {
+  width: 70vw;  
+  text-align: center; 
+  display: grid;
+  grid-template-areas: 'Menu ItemBasket '
+                       'ItemPlaceholder ItemBasket';
+  grid-template-rows: 19vh 1fr;
+  
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+

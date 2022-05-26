@@ -1,0 +1,9 @@
+#ItemBasket {
+  background-color: #f6f6f8;  
+  width: 16vw;
+  margin-left: auto;
+  grid-area: ItemBasket;
+  padding: 16px;
+  
+  
+}

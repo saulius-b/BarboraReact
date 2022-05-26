@@ -1,0 +1,41 @@
+#BasketItem {
+  
+  height: 85px;
+  background-color: white;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 10px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+
+}
+
+.BasketImg {
+  height: 50px;
+}
+
+#ButtonRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#BasketItemName{
+  font-size: .75rem;
+  line-height: 16px;
+  font-weight: 600;
+  max-width: 200px;
+  padding: 0 16px 0 0;
+  margin-bottom: 8px;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+#BasketItemPrice {
+  line-height: 1;
+  font-size: .8125rem;
+  font-weight: 700;
+  color: #e22e39;
+}

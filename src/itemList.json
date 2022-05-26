@@ -1,0 +1,47 @@
+[
+  {
+    "image": "https://cdn.barbora.lt/products/78cabc0f-879e-4616-a2fb-c8a1fd0accb5_m.png",
+    "itemName": "Natūralus gazuotas mineralinis vanduo VANDUO1, 1,5 l",
+    "itemPrice": 1.71,
+    "extraPrice": "€0,10 × Tara",
+    "pricePerUnit": "€0,47/l",
+    "id": 1,
+    "count": 0
+  },
+  {
+    "image": "https://cdn.barbora.lt/products/52a4637a-c1b1-44c6-ae96-0f9c3b78211c_m.png",
+    "itemName": "Natūralus gazuotas mineralinis vanduo VANDUO2, 1,5 l",
+    "itemPrice": 10.71,
+    "extraPrice": "€0,10 × Tara",
+    "pricePerUnit": "€0,47/l",
+    "id": 2,
+    "count": 0
+  },
+  {
+    "image": "https://cdn.barbora.lt/products/062345be-ba96-4f7e-b411-558280950be4_m.png",
+    "itemName": "Natūralus gazuotas mineralinis vanduo VANDUO3, 1,5 l",
+    "itemPrice": 15.00,
+    "extraPrice": "€0,10 × Tara",
+    "pricePerUnit": "€0,47/l",
+    "id": 3,
+    "count": 0
+  },
+  {
+    "image": "https://cdn.barbora.lt/products/b37df3f1-9bb0-40cd-92c3-70dca1072d88_m.png",
+    "itemName": "Natūralus gazuotas mineralinis vanduo VANDUO4, 1,5 l",
+    "itemPrice": 0.51,
+    "extraPrice": "€0,10 × Tara",
+    "pricePerUnit": "€0,47/l",
+    "id": 4,
+    "count": 0
+  },
+  {
+    "image": "https://cdn.barbora.lt/products/a6517028-a54a-425a-9f48-e64a3cb9a67e_m.png",
+    "itemName": "Natūralus gazuotas mineralinis vanduo VANDUO5, 1,5 l",
+    "itemPrice": 0.10,
+    "extraPrice": "€0,10 × Tara",
+    "pricePerUnit": "€0,47/l", 
+    "id": 5,
+    "count": 0
+  }
+]
