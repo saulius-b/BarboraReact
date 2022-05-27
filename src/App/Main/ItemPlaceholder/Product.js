@@ -2,18 +2,18 @@ import React from 'react'
 import AddToCartButton from '../ItemPlaceholder/AddToCartButton'
 
 
-function Product(props) {  
+const Product = (props) => {  
 
   return (
     <div id='Product'>
       <div>
         <img id='img' alt={props.itemName} src={props.image} />
-        <div id='itemName'>{props.itemName}</div>
+        <p id='itemName'>{props.itemName}</p>
         <div>
           <div id='itemExtras'>
             <span id='itemPrice'>€ {props.itemPrice}</span>
-            <div id='extraPrice'>{props.extraPrice}</div>
-            <div id='pricePerUnit'>{props.pricePerUnit}</div>
+            <p id='extraPrice'>{props.extraPrice}</p>
+            <p id='pricePerUnit'>{props.pricePerUnit}</p>
           </div>
         </div>
       </div>

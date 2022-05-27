@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function BasketItem(props) {
+const BasketItem = (props) => {
 
   const itemsPrice = (props.itemPrice * props.count).toFixed(2)
 
@@ -9,16 +9,16 @@ function BasketItem(props) {
     <div id='BasketItem'>
       <img className='BasketImg' alt={props.itemName} src={props.image} />
       <div>
-        <div id='BasketItemName'>{props.itemName}</div>
+        <p id='BasketItemName'>{props.itemName}</p>
         <div id='ButtonRow'>
           <div>
             <button onClick={ () => props.removeItem(props.index)}>-</button>
             <span>{props.count} vnt.</span>
             <button onClick={ () => props.addItem(props.index)}>+</button>
           </div>
-          <div id='BasketItemPrice'>
+          <p id='BasketItemPrice'>
             € {itemsPrice}
-          </div>
+          </p>
         </div>
       </div>
 

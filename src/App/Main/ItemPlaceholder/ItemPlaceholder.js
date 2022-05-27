@@ -1,15 +1,13 @@
-
 import React from 'react'
-import Filter from '../ItemPlaceholder/Filter'
 import Products from '../ItemPlaceholder/Products'
-import PageSelect from '../ItemPlaceholder/PageSelect'
 
-function ItemPlaceholder({productList, addToCart, addItem, removeItem}) {
+
+const ItemPlaceholder = ({productList, addToCart, addItem, removeItem}) => {
   return (
     <div id='ItemPlaceholder'>
-      <Filter />
+      <section id='Filter'>Filter</section>
       <Products productList={productList} addToCart={addToCart} addItem={addItem} removeItem={removeItem}/>
-      <PageSelect />
+      <section id='PageSelect'>PageSelect</section>
     </div>
   )
 }

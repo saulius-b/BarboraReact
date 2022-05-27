@@ -1,10 +1,9 @@
 import ItemBasket from '../Main/ItemBasket/ItemBasket'
 import ItemPlaceholder from '../Main/ItemPlaceholder/ItemPlaceholder'
-import Menu from '../Main/Menu'
 import React, { useState, useEffect } from 'react'
 import itemList from '../../itemList.json'
 
-function Main() {
+const Main = () => {
 
   useEffect(() => {
     itemList.forEach(item => item.addToCart = false)
@@ -20,7 +19,7 @@ function Main() {
 
     const newProductList = [...productList]
 
-    if (newProductList[index].addToCart === false) {
+    if (!newProductList[index].addToCart) {
 
       (newProductList[index].addToCart = true) && (newProductList[index].count = 1)
 
@@ -63,16 +62,9 @@ function Main() {
   }
 
 
-
-
-
-
-
-
-
   return (
-    <main id="Main">
-      <Menu />
+    <main id="main">
+      <nav id="main-menu">Menu</nav>
       <ItemPlaceholder productList={productList} addToCart={addToCart} addItem={addItem} removeItem={removeItem} />
       <ItemBasket productList={productList} totalPrice={totalPrice} addItem={addItem} removeItem={removeItem} />
     </main>
