@@ -9,7 +9,7 @@ const Products = ({ productList, addToCart, addItem, removeItem }) => {
   ))
 
   return (
-    <section id='Products'>
+    <section className='products'>
       {product}
     </section>
   )

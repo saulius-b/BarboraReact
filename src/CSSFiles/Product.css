@@ -1,16 +1,16 @@
-#Product {
+.products-item-container {
   background-color: white;
   padding: 10px;
   border: 1px solid #e6e6e6;  
 }
 
-#buttonPlaceholder {
+.products-button-container {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 2px;
 }
 
-.Button {
+.products-button {
   width: 100%;
   height: 32px;
   padding: 6px 12px;
@@ -21,11 +21,11 @@
   cursor: pointer;
 }
 
-.Button:hover {
+.products-button:hover {
   filter: brightness(85%);
 }
 
-#itemName {
+.products-item-name {
   height: 72px;
   margin-top: 6px;
   margin-bottom: 4px;
@@ -35,11 +35,11 @@
   color: #3b3b3b;
 }
 
-#itemName:hover {
+.products-item-name:hover {
   color: #e22e39;
 }
 
-#itemPrice {
+.products-item-price {
   color: #e22e39;
   font-size: 1.625rem;
   font-weight: 600;
@@ -47,7 +47,7 @@
   padding-bottom: 2px;
 }
 
-#extraPrice {
+.products-extra-price {
   text-align: center;
   font-size: .6875rem;
   font-weight: 600;
@@ -55,14 +55,14 @@
   color: #e22e39;
 }
 
-#pricePerUnit {
+.products-price-per-unit {
   text-align: center;
   font-size: .6875rem;
   line-height: 1.2;
   color: #999;
 }
 
-#img {
+.products-item-img {
   width: 100%;
   cursor: pointer;
 }

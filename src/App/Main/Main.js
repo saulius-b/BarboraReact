@@ -63,8 +63,8 @@ const Main = () => {
 
 
   return (
-    <main id="main">
-      <nav id="main-menu">Menu</nav>
+    <main className="main">
+      <nav className="main-menu">Menu</nav>
       <ItemPlaceholder productList={productList} addToCart={addToCart} addItem={addItem} removeItem={removeItem} />
       <ItemBasket productList={productList} totalPrice={totalPrice} addItem={addItem} removeItem={removeItem} />
     </main>

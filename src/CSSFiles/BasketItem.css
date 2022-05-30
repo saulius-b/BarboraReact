@@ -1,5 +1,4 @@
-#BasketItem {
-  
+.basket-item-container {
   height: 85px;
   background-color: white;
   border-radius: 3px;
@@ -9,20 +8,19 @@
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 10px;
-
 }
 
-.BasketImg {
+.basket-item-img {
   height: 50px;
 }
 
-#ButtonRow {
+.basket-item-counter-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#BasketItemName{
+.basket-item-name {
   font-size: .75rem;
   line-height: 16px;
   font-weight: 600;
@@ -33,7 +31,7 @@
   word-wrap: break-word;
 }
 
-#BasketItemPrice {
+.basket-item-price {
   line-height: 1;
   font-size: .8125rem;
   font-weight: 700;

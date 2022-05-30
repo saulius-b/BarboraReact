@@ -4,10 +4,10 @@ import Products from '../ItemPlaceholder/Products'
 
 const ItemPlaceholder = ({productList, addToCart, addItem, removeItem}) => {
   return (
-    <div id='ItemPlaceholder'>
-      <section id='Filter'>Filter</section>
+    <div className='item-placeholder'>
+      <section className='item-filter'>Filter</section>
       <Products productList={productList} addToCart={addToCart} addItem={addItem} removeItem={removeItem}/>
-      <section id='PageSelect'>PageSelect</section>
+      <section id='item-page-select'>PageSelect</section>
     </div>
   )
 }

@@ -1,16 +1,16 @@
-#ItemPlaceholder {
+.item-placeholder {
  background-color: red; 
  height: 100%;
  width: 49vw;
  grid-area: ItemPlaceholder; 
 }
 
-#Filter {
+.item-filter {
   background-color: #f8f4f1;
   height: 15vh;  
 }
 
-#PageSelect {
+.item-page-select {
   background-color: #f8f4f1;
   height: 5vh;
 }

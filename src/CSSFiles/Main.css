@@ -1,4 +1,4 @@
-#main {
+.main {
   width: 70vw;
   text-align: center;
   display: grid;
@@ -9,7 +9,7 @@
   margin-right: auto;
 }
 
-#main-menu {  
+.main-menu {  
   grid-area: Menu;
   width: 49vw;   
 }

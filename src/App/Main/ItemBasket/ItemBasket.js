@@ -13,7 +13,7 @@ const ItemBasket = ({productList, addItem, removeItem, totalPrice}) => {
   
 
   return (
-    <aside id='ItemBasket'>
+    <aside className='basket'>
       {basketItem}    
       <div>{totalPrice.toFixed(2)}</div>
     </aside>

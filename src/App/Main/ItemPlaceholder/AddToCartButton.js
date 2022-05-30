@@ -2,7 +2,7 @@ import React from 'react'
 
 const AddToCartButton = (props) => {
 
-  const cartButton = <button className='Button' onClick={() => props.addToCart(props.index)}>Į krepšelį</button>
+  const cartButton = <button className='products-button' onClick={() => props.addToCart(props.index)}>Į krepšelį</button>
 
   const mutatedCartButton =
 

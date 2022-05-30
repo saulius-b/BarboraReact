@@ -14,9 +14,9 @@ import Main from './App/Main/Main';
 const App = () => {
   return (
     <div className="App">
-      <header id="Header">Header</header>
+      <header className="Header">Header</header>
       <Main />
-      <footer id="Footer">Footer</footer>
+      <footer className="Footer">Footer</footer>
     </div>
   );
 }

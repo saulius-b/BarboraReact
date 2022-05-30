@@ -1,4 +1,4 @@
-#Products {
+.products {
   background-color: #f8f4f1; 
   display: grid;
   grid-template-columns: auto auto auto auto;
